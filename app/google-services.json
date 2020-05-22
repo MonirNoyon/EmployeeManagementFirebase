@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514302825212",
+    "firebase_url": "https://employee-management-dc65b.firebaseio.com",
+    "project_id": "employee-management-dc65b",
+    "storage_bucket": "employee-management-dc65b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514302825212:android:8996f0eae9e0c8b4707d79",
+        "android_client_info": {
+          "package_name": "com.example.employeemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514302825212-b7sr1bvorsr5d2bspu354ob9bc7bqne2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA67PR8WELOaUO4LSiIQMWQ233bqsUbrE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514302825212-b7sr1bvorsr5d2bspu354ob9bc7bqne2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

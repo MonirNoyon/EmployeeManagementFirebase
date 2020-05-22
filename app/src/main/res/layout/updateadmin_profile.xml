@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#292F47"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/up_linear_back"
+        android:gravity="center"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/up_profile"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                app:civ_circle_background_color="#F7BB1F"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="1dp"
+                android:src="@drawable/ic_person_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Profile"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/up_signeture"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                app:civ_circle_background_color="#D8B5A1"
+                app:civ_border_color="#6BC61B"
+                app:civ_border_width="1dp"
+                android:src="@drawable/signeture_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Signeture"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/up_qr"
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                app:civ_circle_background_color="#0F98AA"
+                app:civ_border_color="#8F2121"
+                app:civ_border_width="1dp"
+                android:src="@drawable/qr_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Qr code"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+           android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/up_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_back"
+                android:drawableLeft="@drawable/username_ic"
+                android:drawablePadding="10dp"
+                android:hint="Name"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/up_empid"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_back"
+                android:drawableLeft="@drawable/uid_ic"
+                android:drawablePadding="10dp"
+                android:hint="Employee Id"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/up_bloodgrp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_back"
+                android:drawableLeft="@drawable/blood_ic"
+                android:drawablePadding="10dp"
+                android:hint="Blood Group"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/up_phonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_back"
+                android:drawableLeft="@drawable/mobile_ic"
+                android:drawablePadding="10dp"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/up_address"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_back"
+                android:drawableLeft="@drawable/address_ic"
+                android:drawablePadding="10dp"
+                android:hint="Address"
+                android:paddingLeft="10dp" />
+
+            <EditText
+                android:id="@+id/up_workplace"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/et_back"
+                android:drawableLeft="@drawable/workplace_ic"
+                android:drawablePadding="10dp"
+                android:hint="Work Place"
+                android:paddingLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/update_back">
+                <Button
+                    android:id="@+id/update_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ripple_effect"
+                    android:text="Update"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

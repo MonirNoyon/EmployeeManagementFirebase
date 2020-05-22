@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_id"
+            android:icon="@drawable/home_ic"
+            android:title="Home" />
+        <item
+            android:id="@+id/myprofile_id"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/status_id"
+            android:icon="@drawable/ic_employee_ok"
+            android:title="My Status" />
+        <item
+            android:id="@+id/update_id"
+            android:icon="@drawable/update"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/salary_id"
+            android:icon="@drawable/money_ic"
+            android:title="Salary Details" />
+        <item
+            android:id="@+id/attendence_id"
+            android:icon="@drawable/attendence_ic"
+            android:title="Attendence" />
+        <item
+            android:id="@+id/leave_id"
+            android:icon="@drawable/resign_ic"
+            android:title="Leave Application" />
+        <item
+            android:id="@+id/reisgn_id"
+            android:icon="@drawable/resign"
+            android:title="Resign Application" />
+        <item
+            android:id="@+id/documents_id"
+            android:icon="@drawable/document_ic"
+            android:title="Documents" />
+
+        <item
+            android:id="@+id/logout_id"
+            android:icon="@drawable/log_out"
+            android:title="Log out" />
+    </group>
+</menu>

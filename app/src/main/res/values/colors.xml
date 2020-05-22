@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#383645</color>
+    <color name="colorPrimaryDark">#302D2D</color>
+    <color name="colorAccent">#DC165B</color>
+
+    <color name="colorTextbox">#808080</color>
+    <color name="colorTextHeader">#323232</color>
+    <color name="colorBackground">#238065</color>
+    <color name="colorBackgroundRed">#E6083B</color>
+    <color name="cause_back">#ECE114</color>
+
+    <color name="overFlowMenu">#FFFF</color>
+    <color name="grey">#787986</color>
+    <color name="back">#01AF50</color>
+</resources>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leave Application "
+            android:textColor="#DD6A79"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:id="@+id/main_applicationid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/headerleave_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/application_head"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/application_subject"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bodytextId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/application"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/leave_reason_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="visible"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/sicklLeave_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_back"
+                    android:gravity="center"
+                    android:text="Sick Leave" />
+
+                <TextView
+                    android:id="@+id/casualLeave_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_back"
+                    android:gravity="center"
+                    android:text="Casual Leave" />
+
+                <TextView
+                    android:id="@+id/annualLeave_id"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_back"
+                    android:gravity="center"
+                    android:text="Annual Leave" />
+
+                <TextView
+                    android:id="@+id/leaveWithoupay"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_back"
+                    android:gravity="center"
+                    android:text="Leave without pay" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/reason_clickid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_back"
+                android:gravity="start|center"
+                android:hint="Reason for Leave"
+                android:textColor="#C5C5BD" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_back">
+
+                    <ImageView
+                        android:id="@+id/signeture_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/img_textid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/signeture_image"
+                        android:layout_alignLeft="@id/signeture_image"
+                        android:layout_alignRight="@+id/signeture_image"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="2dp"
+                        android:text="Attatched Signeture"
+                        android:textColor="#C5C5BD" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_back">
+
+                    <ImageView
+                        android:id="@+id/adddocuments_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop" />
+
+                    <TextView
+                        android:id="@+id/documents_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/adddocuments_image"
+                        android:layout_alignLeft="@id/adddocuments_image"
+                        android:layout_alignRight="@+id/adddocuments_image"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="2dp"
+                        android:text="Attatched Documents"
+                        android:textColor="#C5C5BD" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="\nYour obedient"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/leave_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Md. Monir Hossain"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/leave_designition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Designition: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/leave_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Area: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/leave_workplace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Work Place: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/leave_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Phone Number: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/leave_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Shop Name: "
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/update_back">
+
+            <TextView
+                android:id="@+id/apply_leavetext_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_effect"
+                android:gravity="center"
+                android:padding="8sp"
+                android:text="Apply for Leave"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/vivoteam_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="bottom"
+            android:text="\u0040 vivo Barishal Team"
+            android:textColor="#DF475B"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

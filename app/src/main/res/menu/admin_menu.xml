@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeadmin_id"
+            android:icon="@drawable/home_ic"
+            android:title="Home" />
+        <item
+            android:id="@+id/myprofileadmin_id"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/updateadmin_id"
+            android:icon="@drawable/update"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/emplyee_manageid"
+            android:icon="@drawable/group_employee"
+            android:title="Employee Manage" />
+        <item
+            android:id="@+id/statusadmin_id"
+            android:icon="@drawable/ic_employee_ok"
+            android:title="Employee Status" />
+        <item
+            android:id="@+id/contactadmin_id"
+            android:icon="@drawable/contact_ic"
+            android:title="Employee Contact" />
+        <item
+            android:id="@+id/salaryadmin_id"
+            android:icon="@drawable/money_ic"
+            android:title="Employee Salary" />
+        <item
+            android:id="@+id/attendenceadmin_id"
+            android:icon="@drawable/attendence_ic"
+            android:title="Employee Attendence" />
+
+
+        <item
+            android:id="@+id/documentsadmin_id"
+            android:icon="@drawable/document_ic"
+            android:title="Upload Documents" />
+        <item
+            android:id="@+id/leaveadmin_id"
+            android:icon="@drawable/resign_ic"
+            android:title="Leave Application" />
+        <item
+            android:id="@+id/resignadmin_id"
+            android:icon="@drawable/resign"
+            android:title="Resign Application" />
+        <item
+            android:id="@+id/header_footerid"
+            android:icon="@drawable/footer"
+            android:title="Header and Footer" />
+        <item
+            android:id="@+id/lgoutadmn_id"
+            android:icon="@drawable/log_out"
+            android:title="Log out" />
+    </group>
+</menu>

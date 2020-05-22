@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EHR</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="application_subject">Subject: Application for Leave.\n</string>
+    <string name="application_resign">Subject: Resign letter from job.\n</string>
+    <string name="application_head">To\nHuman Resource Manager\nBOYUANXINTONG CO. LTD.\nvivo,Barishal\n</string>
+    <string name="application">Sir,\nWith due respect I am to state that I need </string>
+    <string name="application_res">Sir,\nWith due respect, I would like to resign from my job. Thank you very much for the
+     opportuinities for professional and personal development. I would like to request you to grant my resign letter.\n\nEffective Date: </string>
+    <string name="applicationd">with the recommendation of my
+        superior, I\nwould like to request you to grant my leave and oblige thereby.\nReason for leave:\n</string>
+</resources>
